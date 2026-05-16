@@ -109,22 +109,45 @@
 = Work experience (teaching)
 
 #cv-entry-multiline(
-  date: [2016 --],
-  title: [Teacher for "classes prépa" students],
+  date: [Nov 2020 -- Jun 2022],
+  title: [#link("https://tutorat.lucaswillems.com")[Maths tutor for "classes prépa" students (\~540 hours)]],
+  employer: [Self-employed, Paris, France],
+  [
+    Tutored "classes prépa" students (MPSI, PCSI, PTSI, PC, PT) in maths throughout the school year. Every Sunday, I quizzed them on their lectures to make sure they knew them properly, gave them exercises to mobilize their knowledge, and answered all their questions.
+    - 2020/2021: \~280 hours
+    - 2021/2022: \~260 hours
+  ],
+)
+#cv-entry-multiline(
+  date: [Sep 2016 -- Aug 2019],
+  title: [Maths teacher for "classes prépa" students (199 hours)],
   employer: [Optimal Sup Spé, Paris, France],
-  [Maths (200+ hours) & Computer science (200+ hours)],
+  [
+    Taught maths to "classes prépa" students (MPSI, PCSI, BCPST) during:
+    - the 2016/2017 annual cycle: 2h/week for MPSI and 2h30/week for BCPST over 30 weeks
+    - intensive courses: 2017 spé pre-term (32h), 2019 spé pre-term (32h)
+  ],
+)
+#cv-entry-multiline(
+  date: [Sep 2016 -- Aug 2019],
+  title: [Computer science teacher for "classes prépa" students (160 hours)],
+  employer: [Optimal Sup Spé, Paris, France],
+  [
+    Taught Python to "classes prépa" students (MPSI, PCSI, BCPST, MP, PC, PSI) during:
+    - intensive courses: Toussaint spé 2016 (20h), Christmas spé 2016 (20h), February spé 2017 (16h), February sup 2017 (16h), 2017 spé pre-term (16h), Toussaint spé 2017 (20h), Christmas spé 2017 (20h), 2018 spé pre-term (16h), 2019 spé pre-term (16h)
+  ],
 )
 #cv-entry-multiline(
   date: [2016 -- 2017],
-  title: [Oral examiner for "classes prépa" students],
+  title: [Maths oral examiner for "classes prépa" students (12 hours)],
   employer: [Fenelon secondary school, Paris, France],
-  [Maths (12 hours)],
+  [],
 )
 #cv-entry-multiline(
   date: [2013 -- 2016],
-  title: [Private lessons],
+  title: [Maths private lessons for high school students (60 hours)],
   employer: [Montpellier, France],
-  [Maths (60 hours)],
+  [],
 )
 
 = Selected personal projects
