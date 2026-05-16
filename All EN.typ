@@ -64,13 +64,13 @@
 = Research publications
 
 #cv-line(
-  [],
+  [Oct 2018],
   [
     #link("https://arxiv.org/abs/1810.08272")[*BabyAI: First Steps Towards Grounded Language Learning With a Human In the Loop.*] #emph[Maxime Chevalier-Boisvert, Dzmitry Bahdanau, Salem Lahlou, Lucas Willems, Chitwan Saharia, Thien Huu Nguyen, Yoshua Bengio.] Accepted to ICLR'19.
   ],
 )
 #cv-line(
-  [],
+  [Aug 2020],
   [
     #link("https://arxiv.org/abs/2008.06456")[*Mastering Rate based Curriculum Learning*] #emph[Lucas Willems, Salem Lahlou, Yoshua Bengio.]
   ],
