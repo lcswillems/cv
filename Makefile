@@ -1,12 +1,12 @@
 .PHONY: all watch clean
 
-all: English.pdf
+all: All\ EN.pdf
 
-English.pdf: English.typ
-	typst compile English.typ
+All\ EN.pdf: All\ EN.typ
+	typst compile "All EN.typ"
 
 watch:
-	typst watch English.typ
+	typst watch "All EN.typ"
 
 clean:
-	rm -f English.pdf
+	rm -f "All EN.pdf"
