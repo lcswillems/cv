@@ -2,14 +2,13 @@
 
 #show: moderner-cv.with(
   name: "Lucas Willems",
-  subtitle: "Master 2 student in Computer science",
   lang: "en",
   show-footer: false,
   social: (
     phone: "+33 6 52 96 33 22",
-    email: "lucas.willems@ens.fr",
+    email: "lcswillems@gmail.com",
+    linkedin: "lucas-willems",
     github: "lcswillems",
-    website: ("link", "https://www.lucaswillems.com", "lucaswillems.com"),
   ),
 )
 
@@ -51,35 +50,35 @@
 #cv-entry-multiline(
   date: [2014 -- 2016],
   title: ["Classes prépa"],
-  employer: [Pierre de Fermat secondary school, Toulouse, France],
-  [Maths, physics & computer science courses],
+  employer: [Pierre de Fermat high school, Toulouse, France],
+  [Maths, physics & computer science courses (MPSI / MP\*)],
 )
 #cv-entry-multiline(
-  date: [July 2014],
+  date: [July~2014],
   title: [High school diploma],
-  employer: [Victor Hugo secondary school, Montpellier, France],
+  employer: [Victor Hugo high school, Montpellier, France],
   [Science, with highest honors],
 )
 
 = Research publications
 
 #cv-line(
-  [Oct 2018],
-  [
-    #link("https://arxiv.org/abs/1810.08272")[*BabyAI: First Steps Towards Grounded Language Learning With a Human In the Loop.*] #emph[Maxime Chevalier-Boisvert, Dzmitry Bahdanau, Salem Lahlou, Lucas Willems, Chitwan Saharia, Thien Huu Nguyen, Yoshua Bengio.] Accepted to ICLR'19.
-  ],
-)
-#cv-line(
-  [Aug 2020],
+  [Aug~2020],
   [
     #link("https://arxiv.org/abs/2008.06456")[*Mastering Rate based Curriculum Learning*] #emph[Lucas Willems, Salem Lahlou, Yoshua Bengio.]
   ],
 )
+#cv-line(
+  [Oct~2018],
+  [
+    #link("https://arxiv.org/abs/1810.08272")[*BabyAI: First Steps Towards Grounded Language Learning With a Human In the Loop.*] #emph[Maxime Chevalier-Boisvert, Dzmitry Bahdanau, Salem Lahlou, Lucas Willems, Chitwan Saharia, Thien Huu Nguyen, Yoshua Bengio.] Accepted to ICLR'19.
+  ],
+)
 
-= Work experience (research)
+= Research experience
 
 #cv-entry-multiline(
-  date: [Apr 2019 -- Jul 2019],
+  date: [Apr~2019 -- Jul~2019],
   title: [Intern in Natural Language Processing (NLP)],
   employer: [Glose, Paris, France],
   [
@@ -88,7 +87,7 @@
   ],
 )
 #cv-entry-multiline(
-  date: [Mar 2018 -- Jun 2018],
+  date: [Mar~2018 -- Jun~2018],
   title: [Intern in Deep Reinforcement Learning],
   employer: [MILA, Montréal, Canada],
   [
@@ -97,7 +96,7 @@
   ],
 )
 #cv-entry-multiline(
-  date: [Jun 2017 -- Jul 2017],
+  date: [Jun~2017 -- Jul~2017],
   title: [Intern in Databases],
   employer: [University of Oxford, Oxford, England],
   [
@@ -106,20 +105,20 @@
   ],
 )
 
-= Work experience (teaching)
+= Teaching experience
 
 #cv-entry-multiline(
-  date: [Nov 2020 -- Jun 2022],
-  title: [#link("https://tutorat.lucaswillems.com")[Maths tutor for "classes prépa" students (\~540 hours)]],
+  date: [Nov~2020 -- Jun~2022],
+  title: [#link("https://tutorat.lucaswillems.com")[Maths tutor for "classes prépa" students (540 hours)]],
   employer: [Self-employed, Paris, France],
   [
     Tutored "classes prépa" students (MPSI, PCSI, PTSI, PC, PT) in maths throughout the school year. Every Sunday, I quizzed them on their lectures to make sure they knew them properly, gave them exercises to mobilize their knowledge, and answered all their questions.
-    - 2020/2021: \~280 hours
-    - 2021/2022: \~260 hours
+    - 2021/2022: 260 hours
+    - 2020/2021: 280 hours
   ],
 )
 #cv-entry-multiline(
-  date: [Sep 2016 -- Aug 2019],
+  date: [Sep~2016 -- Aug~2019],
   title: [Maths teacher for "classes prépa" students (199 hours)],
   employer: [Optimal Sup Spé, Paris, France],
   [
@@ -129,7 +128,7 @@
   ],
 )
 #cv-entry-multiline(
-  date: [Sep 2016 -- Aug 2019],
+  date: [Sep~2016 -- Aug~2019],
   title: [Computer science teacher for "classes prépa" students (160 hours)],
   employer: [Optimal Sup Spé, Paris, France],
   [
@@ -140,7 +139,7 @@
 #cv-entry-multiline(
   date: [2016 -- 2017],
   title: [Maths oral examiner for "classes prépa" students (12 hours)],
-  employer: [Fenelon secondary school, Paris, France],
+  employer: [Fenelon high school, Paris, France],
   [],
 )
 #cv-entry-multiline(
@@ -150,10 +149,10 @@
   [],
 )
 
-= Selected personal projects
+= Knowledge sharing projects
 
 #cv-entry-multiline(
-  date: [Sep 2017 --],
+  date: [Sep~2017 -- Jun~2020],
   title: [#link("https://sapt.fr")[Savoirs Pour Tous]],
   employer: [with Vadim Lebovici],
   [
@@ -174,7 +173,7 @@
   ],
 )
 #cv-entry-multiline(
-  date: [Sep 2017 --],
+  date: [Sep~2017 -- Jun~2019],
   title: [#link("https://parcours.co")[Parcours]],
   employer: [with Vadim Lebovici],
   [
@@ -190,35 +189,27 @@
   ],
 )
 #cv-entry-multiline(
-  date: [2013 --],
-  title: [#link("https://www.youtube.com/user/lulu303030")[Personal Youtube channel]],
+  date: [May~2013 --],
+  title: [#link("https://www.youtube.com/@lcswillems")[My personal YouTube channel]],
   employer: [],
   [
-    Created during the secondary school period to share part of my knowledge. It contains:
-    - Maths courses for first year "classes prépa" students
-    - Beginner Python courses to help everybody learning computing
-    - My experience during my higher studies
+    Started in high school to share my knowledge. It contains:
+    - Python tutorials to help beginners learn programming
+    - My journey after high school to inspire others facing similar choices
   ],
 )
 #cv-entry-multiline(
-  date: [2013 --],
+  date: [Jun~2012 -- Aug~2017],
+  title: [#link("https://old.lucaswillems.com")[My old personal website]],
+  employer: [],
+  [Started in high school to share my computing projects, tools, resources and articles about maths (proofs of theorems), computer science (Project Euler, Python…), productivity…],
+)
+
+= Other projects
+
+#cv-entry-multiline(
+  date: [Dec~2013 -- Aug~2015],
   title: [#link("http://www.reflex4you.com/")[Reflex 4 You]],
   employer: [with #link("https://www.linkedin.com/in/mikaelmayer/")[Mikaël Mayer]],
   [Created a website to allow people to generate Reflexes. A Reflex (REpresentation of complEX Function) is a way to represent mathematical complex functions using colors, invented by Mikaël Mayer.],
 )
-#cv-entry-multiline(
-  date: [2012 --],
-  title: [#link("https://www.lucaswillems.com/fr")[Personal website]],
-  employer: [],
-  [Created during the secondary school period to share my computing projects, tools, resources and articles about maths (proofs of theorems), computer science (Project Euler, Python…), productivity…],
-)
-
-= Programming skills
-
-#cv-line[Desktop][Python (TensorFlow, PyTorch) / Java / C++ / OCaml]
-#cv-line[Web][HTML, CSS / JavaScript (React) / PHP, MySQL (Laravel)]
-#cv-line[Other][LaTex / Git]
-
-= Extracurricular activities
-
-#cv-line[Tennis][Intensive practice of tennis for 10 years.]
